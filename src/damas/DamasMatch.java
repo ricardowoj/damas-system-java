@@ -25,8 +25,7 @@ public class DamasMatch {
     }
 
     private void initialSetup() {
-        for (int i = 0; i < 8; i++) {
-            board.placePiece(new Stone(board, Color.WHITE), new Position(i, i));
-        }
+        board.placePiece(new Stone(board, Color.WHITE), new Position(1, 1));
+        board.placePiece(new Stone(board, Color.WHITE), new Position(1, 0));
     }
 }
