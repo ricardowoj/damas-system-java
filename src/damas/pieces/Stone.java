@@ -1,6 +1,6 @@
 package damas.pieces;
 
-import boadgame.Board;
+import boardgame.Board;
 import damas.Color;
 import damas.DamasPiece;
 

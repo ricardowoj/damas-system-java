@@ -1,7 +1,7 @@
 package damas;
 
-import boadgame.Board;
-import boadgame.Piece;
+import boardgame.Board;
+import boardgame.Piece;
 
 public class DamasPiece extends Piece {
 
