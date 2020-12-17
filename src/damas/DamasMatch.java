@@ -1,6 +1,7 @@
 package damas;
 
 import boardgame.Board;
+import damas.pieces.Queen;
 import damas.pieces.Stone;
 
 public class DamasMatch {
@@ -35,6 +36,7 @@ public class DamasMatch {
         placeNewPiece('f', 2, new Stone(board, Color.WHITE));
         placeNewPiece('g', 2, new Stone(board, Color.WHITE));
         placeNewPiece('h', 2, new Stone(board, Color.WHITE));
+        placeNewPiece('h', 5, new Queen(board, Color.RED));
 
     }
 }
